@@ -6,7 +6,7 @@ Authors@R: person("Hector", "Corrada Bravo", email = "hcorrada@gmail.com", role 
 Description: Uses standalone version running within Rstudio viewer
 License: MIT + file LICENSE
 LazyData: TRUE
-Suggests: epivizrStandalone (>= 1.1.5), epivizr (>= 2.3.5), GenomicFeatures, Homo.sapiens, hgu133plus2.db,
+Suggests: epivizrStandalone (>= 1.1.7), epivizr (>= 2.3.6), GenomicFeatures, Homo.sapiens, hgu133plus2.db,
     knitr,
     rmarkdown
 VignetteBuilder: knitr
