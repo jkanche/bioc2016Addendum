@@ -22,7 +22,7 @@ library(bioc2016Addendum)
 library(epivizrStandalone)
 library(Homo.sapiens)
 
-app <- startStandalone(Homo.sapiens, chr="chr11", use_viewer_option=TRUE)
+app <- startStandalone(Homo.sapiens, chr="chr11", use_viewer_option=TRUE, port=7345)
 ```
 
 Now, let's add the CpG island track included in this package.
