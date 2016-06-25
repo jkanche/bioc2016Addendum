@@ -31,4 +31,12 @@ data(cgi_gr)
 cgi_track <- app$plot(cgi_gr, datasource_name="CpG Islands")
 ```
 
+Now, let's add a heatmap with the gene expression barcode data
+
+```{r, eval=FALSE}
+data(bcode_eset)
+bcode_ms <- app$data_mgr$add_measurements(bcode_eset, "Gene Expression Barcode")
+bcode_hmap <- app$chart_mgr$visualize("HeatmapPlot", datasource=bcode_ms)
+```
+
 
