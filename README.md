@@ -20,5 +20,5 @@ biocLite("hcbravolab/bioc2016addendum", build_vignettes=TRUE, dependencies=TRUE)
 From there we can follow the vignette in this package to setup the epiviz workspaces we will use throughout the workshop (my preffered way is to use
 
 ```r
-file.edit(system.file("doc","Bioc2016Addendum.Rmd", package="bioc2016addendum")))
+file.edit(system.file("doc","Bioc2016Addendum.Rmd", package="bioc2016Addendum")))
 ```
