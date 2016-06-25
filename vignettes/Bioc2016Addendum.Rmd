@@ -18,6 +18,7 @@ Let's start the application with hg19 as the reference
 for genes track.
 
 ```{r, eval=FALSE}
+library(bioc2016Addendum)
 library(epivizrStandalone)
 library(Homo.sapiens)
 
