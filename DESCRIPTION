@@ -1,8 +1,9 @@
 Package: bioc2016Addendum
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Some changes to make workshop smoother
 Version: 0.1.0
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Authors@R: person("Hector", "Corrada Bravo", email = "hcorrada@gmail.com", role = c("aut", "cre"))
+Description: Uses standalone version running within Rstudio viewer
+License: MIT + file LICENSE
 LazyData: TRUE
+Suggests: epivizrStandalone (>= 1.1.5), epivizr (>= 2.3.5), GenomicFeatures, TxDb.Hsapiens.UCSC.hg19.knownGene
